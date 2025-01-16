@@ -1,13 +1,17 @@
 import "./SearBox.css"
+import { useDispatch } from 'react-redux';
+import { changeFilter } from '../../redux/filtersSlice';
 
-const SearchBox = ({ value, onChange }) => {
+const SearchBox = () => {
+  const dispatch = useDispatch();
+
   return (
-    <div>
-      <label className="label-search">
-        Find contacts by name
-        <input className="input-search" type="text" value={value} onChange={onChange} />
-      </label>
-    </div>
+    <input
+      className="input-search"
+      type="text"
+      placeholder="Search contacts"
+      onChange={e => dispatch(changeFilter(e.target.value))}
+    />
   );
 };
 

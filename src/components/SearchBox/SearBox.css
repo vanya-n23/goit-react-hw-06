@@ -7,7 +7,8 @@
 }
 
 .input-search {
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
     border: 1px solid;
+    font-size: 18px;
 }

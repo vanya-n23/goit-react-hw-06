@@ -2,10 +2,13 @@
     border: 1px solid;
     font-size: 17px;
     display: flex;
-    max-width: 100%;
+    max-width: 150px;
+    gap: 10px;
     flex-direction: column;
     padding: 10px;
     border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .con-btn {

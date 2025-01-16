@@ -5,12 +5,20 @@
     width: 300px;
     border: 1px solid;
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
-.contact-form label {
-    display: flex;
-    flex-direction: column;
+
+.in-con{
+    height: 20px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+.lab-con{
     font-size: 20px;
 }
 
