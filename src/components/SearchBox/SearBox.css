@@ -1,0 +1,13 @@
+.label-search {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.input-search {
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}

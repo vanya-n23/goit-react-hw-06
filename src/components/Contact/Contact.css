@@ -1,0 +1,24 @@
+.contact-card {
+    border: 1px solid;
+    font-size: 17px;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.con-btn {
+    background-color: lightgray;
+    border: none;
+    stroke: black;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.con-btn:hover {
+    background-color: gray;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
